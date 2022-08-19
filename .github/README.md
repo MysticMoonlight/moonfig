@@ -14,6 +14,8 @@ moonfig is constantly updated following the new tweaks and features from upstrea
 * We will never add Ko-fi exclusive releases, which means there won't be any releases which requires monthly subscription by default. We don't plan to monetize the script in a either way.
 * Community maintained, and always will be. We welcomes any contribution to the project.
 * Only focused on improving the performance rather than taking away user's choice.
+* Mods now consist of two mods: moonfig-core and moonfig-config. Instead of seperating the mod based on preset we now use moonfig-config to configure the presets using `moonfig-config/cfg/presets.cfg`.
+* All overrides configurations are ready, now you don't need to create overrides folder for yourself. Every overrides are stored inside moonfig-config folder.
 
 ## Credits
 * [Chris](https://chrisdown.name/tf2/) for starting it all
