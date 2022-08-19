@@ -1,66 +1,12 @@
 # Contributing
+As you may know, this is non-profit open source project.
 
-As an open source project, mastercomfig appreciates the community's help in improving it.
-
-We welcome contributions of any type or size, from anyone!
+We appreciate any kind of contribution of any type or size, from anyone to improve the script!
 
 ## Reporting issues
-
 We always welcome reporting issues, whether it be bug reports
-or feature requests, you can help guide the development of mastercomfig
-to suit your needs and improve mastercomfig for everyone!
-
-## Contact the maintainer
-
-mastercomfig is currently maintained by mastercoms. You can contact me on
-[Steam](https://steamcommunity.com/id/mastercoms),
-[Reddit](https://www.reddit.com/user/mastercoms) or by email at
-[mastercoms@tuta.io](mailto:mastercoms@tuta.io). I'd be happy to chat about any problems or
-suggestions you have for mastercomfig.
-
-## Docs
-
-Have a screenshot, workaround or anything else interesting you'd like to share?
-
-Are you a translator who wishes to add or improve content in your own language?
-
-Contribute to the docs by clicking the edit button on any page you'd like to change!
-
-You can also take a look at [the full source folder](https://github.com/mastercomfig/mastercomfig/tree/release/docs) to add new files or take a look around.
-
-### Adding a new language
-
-You can view currently supported languages [here](https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#built-in-search-plugin).
-
-Add your language plus its native name to `plugins.i18n.languages` in `mkdocs.yml`.
-
-### Adding content in a language
-
-Add a `.[lang]` before the file type.
-
-For example, `index.ru.md` or `logo.ru.png`.
-
-### Referencing content in a localized page
-
-When referencing content, like embedding an image or linking another page, you can refer to the base content directly without any language.
-
-For example `![image](logo.png)` or `[link](./folder/page.md)`. It will automatically reference the translated version, or fallback to the default if not found.
-
-### Localizing page titles
-
-Translated page titles must be added to `mkdocs.yml` and `mkdocs.base.yml` under `nav_translations`.
-
-### Remark checking
-
-Documentation is checked with `remark` automatically through GitHub Actions for linting errors, using `pnpm lint`.
-
-From time to time, link validity may also be checked using `pnpm checklinks`. This is not run automatically due to false positives.
-
-Also, quality of English prose may be checked with `pnpm prose`. This is not run automatically due to the subjective nature of writing.
-
-## Support
-
-You can help users who ask questions on [Discord](https://discord.gg/CuPb2zV).
+or feedback about improving the project. You can help guide the development of moonfig
+to suit your needs and improve moonfig for everyone!
 
 ## Config
 
@@ -75,7 +21,8 @@ Every setting and change must be based on information
 found in Team Fortress 2 [blog posts/patch notes](https://www.teamfortress.com/),
 the [Valve Developer Wiki](https://developer.valvesoftware.com/wiki/SDK_Docs),
 the [Source SDK](https://github.com/ValveSoftware/source-sdk-2013),
-so make sure those are available to you before you start contributing.
+so make sure those are available to you before you begin contributing to the project.
+
 File overrides like DX support, shader cache, texture preload and client precache
 must be updated according to changes [tracked by Steam Database](https://github.com/SteamDatabase/GameTracking-TF2).
 
@@ -92,33 +39,7 @@ First things first: use spaces (no tabs) and CRLF line endings for configs, and
 continue the Valve convention in the other file overrides. Ensure no trailing
 space at the end of lines.
 
-#### Launch options
-
-Launch options are documented on the docs and are formatted like this:
-
-`**-launchoption** : launch option description`
-
-Make sure the description is not sentence case and starts with a lowercase
-letter. Additional notes following the description are sentences.
-
-There are currently 4 categories for launch options:
-
-* `Recommended`: These are launch options everyone should be using, as they benefit all users
-* `Extra`: These are launch options people find to be personal preference or for use cases that cannot be applied to all users
-* `Uncommon`: These are launch options most people will not use, but will still satisfy a valid use case
-* `Experimental`: These are launch options that are being tested to be moved elsewhere as their effects are not clear
-
-Put your launch option in the appropriate section and if it's in the
-`Recommended` section, add it to the launch options line for copying.
-
-Here's lists of launch options to help you out:
-
-* [Windows](https://docs.mastercomfig.com/page/tf2/launchopts_win/)
-* [Linux](https://docs.mastercomfig.com/page/tf2/launchopts_linux/)
-
-Information about generating them can be found [here](https://docs.mastercomfig.com/page/tf2/#making-your-own-launch-options-list).
-
-#### Comfig and presets
+#### moonfig and presets
 
 Note: some additional information about the config can be found
 [here](https://github.com/mastercomfig/mastercomfig/blob/release/config/README.md).
@@ -154,18 +75,6 @@ Add your alternatives uncommented in the applicable presets/addons, or use modul
 * `medium-low`: The maximum performance you can get without making the game too hard to play because of awful visual quality and glitches
 * `low`: Maximum performance without caring much about visibility or possible bugs
 * `very-low`: Negatively affects playability by a lot and disables very essential features in desperation for performance
-
-##### Addons
-
-* `no-footsteps`: Removes footstep sounds
-* `disable-pyroland`: Removes Pyroland map textures
-* `no-soundscapes`: Removes soundscapes (ambient map noise) and bird noises
-* `no-tutorial`: Disables tutorial messages and other popups
-* `flat-mouse`: Makes mouse input "flat" with stable input, no acceleration and 1:1 zoom sensitivity
-* `opengl`: Provides additional optimizations for OpenGL (macOS and Linux)
-* `transparent-viewmodels`: Enables support for transparent viewmodels
-* `null-canceling-movement`: Prevents you from pressing two opposing directions, which causes you to stop moving
-* `lowmem`: Optimizations that generally do not affect quality for low memory (RAM) systems (2GB and lower)
 
 ##### Modules
 
@@ -242,11 +151,6 @@ There are several steps it is recommended you take before making or accepting ch
 the config. You can use Fraps or MSI Afterburner to get an FPS measurement of
 matches.
 
-#### Benchmarking
-
-Use [mastercoms' new test benchmark](https://mega.nz/#!f8tlhDhR!nYgghqybOK15ObUykEczewB3242XHb_bJ4JP0rv1q6k)
-to do basic testing on options.
-
 #### Bot match
 
 After the results are positive with the benchmark, measure your average FPS in a
@@ -257,44 +161,7 @@ local 32 player bot match on `pl_upward`. (use `+maxplayers 32` in launch option
 After the results are positive with the local bot match, measure your average
 FPS in a filled casual match.
 
-## Packaging
-
-Generally you won't have to do this, but you can generate VPK packages for all
-presets and addons. Use the `package.sh` script in the `dev/` folder. You can
-learn more about the dev scripts in
-[dev/README.md](https://github.com/mastercomfig/mastercomfig/blob/release/dev/README.md).
-
-To successfully package presets and addons you need:
-
-* Installed TF2 and Steam with all dependencies
-* bash and basic UNIX tools
-* [VPK](https://developer.valvesoftware.com/wiki/VPK#Linux_.2F_Unix)
-* [gh](https://cli.github.com/)
-  * You must authenticate beforehand, for example using [gh auth login](https://cli.github.com/manual/gh_auth_login), or the `GH_TOKEN` env var
-* GNU parallel (optional)
-
-Additionally, to generate No Tutorial addon, you will need to create a new file
-in `dev/` called `mastercomfig-vars`, containing the following:
-
-```bash
-#!/bin/sh
-export TF2_DIR="absolute path to your Team Fortress 2 directory"
-```
-
-This variable can also come from your system environment.
-
-## Release and announce scripts
-
-If you want to test the scripts that upload to GitHub and/or announce in Discord,
-append following to your `mastercomfig-vars` file:
-
-```bash
-export DISCORD_WEBHOOK="Discord webhook for release notifications"
-```
-
-These variables can also come from your system environment.
-
 ## Code of Conduct
 
-As a member of the mastercomfig community, to foster a more welcoming environment,
-you must abide by the [Code of Conduct](https://github.com/mastercomfig/mastercomfig/blob/release/.github/CODE_OF_CONDUCT.md).
+As a member of the the moonfig project community, to foster a more welcoming environment,
+be sure to abide by the [Code of Conduct](https://github.com/moonfig/moonfig/blob/stable/.github/CODE_OF_CONDUCT.md).

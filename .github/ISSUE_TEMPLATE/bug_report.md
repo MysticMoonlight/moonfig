@@ -1,11 +1,17 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ''
-labels: 'Type: bug'
-assignees: mastercoms
-
+title: '[Bug Report] '
+labels: ''
+assignees: RoonMoonlight
 ---
+<!--
+NOTE: This project is forked from mastercomfig and considered unofficial.
+Any forks or similar projects are not officially supported by mastercomfig community.
+Please refrain from creating the issue directly to the main mastercomfig repository if the issue is related with this project.
+Alternatively, you can create this issue here.
+-->
+
 
 **Describe the bug**
 A clear and concise description of what the bug is.
@@ -17,9 +23,9 @@ Tell us the steps on how to recreate the bug.
 If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
-* mastercomfig version<!-- don't say latest, say the actual version, found by running `version_comfig` in console -->:
-* Preset and addon(s):
-* Custom values (if any):
+* mastercomfig version<!-- don't write this as 'latest', describe the actual version number. You can find version number by typing `moonfig_version` in console -->:
+* Presets:
+* Custom values on your config (if any):
 * DX level:
 * Launch options:
 * Operating system (OS):
