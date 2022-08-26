@@ -1,10 +1,8 @@
-Looking for help with mastercomfig?
+Looking for help with moonfig?
 
 Check these resources out:
 
 * [Quick Fixes guide](https://docs.mastercomfig.com/page/next_steps/quick_fixes/)
 * [Setup Instructions](https://docs.mastercomfig.com/page/setup/clean_up/)
 
-Still can't find your answer and want to ask for help?
-
-* [Ask in #tf2-help on Discord](https://discord.gg/CuPb2zV)
+If you can't still resolve the issue, create a issue tracker then we will help you in a possible way.
