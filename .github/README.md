@@ -17,24 +17,27 @@ moonfig is constantly updated following the new tweaks and features from upstrea
 * Mods now consist of two mods: moonfig-core and moonfig-config. Instead of seperating the mod based on preset we now use moonfig-config to configure the presets using `moonfig-config/cfg/presets.cfg`.
 * All overrides configurations are ready, now you don't need to create overrides folder for yourself. Every overrides are stored inside moonfig-config folder.
 
-## Credits
-* [Chris](https://chrisdown.name/tf2/) for starting it all
-* [Comanglia](https://www.teamfortress.tv/25328/comanglias-config-fps-guide) for
-  continuing what Chris started and providing assistance
-* [Rhapsody](https://rhapsodysl.github.io/perfconfig/) for updating Chris' config
-* [JarateKing](https://github.com/JarateKing) for all their amazing work on TF2 modding and configuration
-* povohat for [making the null-canceling movement script](https://web.archive.org/web/20191124005113/http://ozfortress.com/showpost.php?p=624355)
-* SteamDB for their excellent tools, including [Game Tracking for TF2](https://github.com/SteamDatabase/GameTracking-TF2)
-* [SourceMod](https://www.sourcemod.net/credits.php) for their extensive and easy to use modification system for Source
-* step for [sm_cvarlist](https://forums.alliedmods.net/showthread.php?p=1298262)
-* AveYo for [GetLaunchOptions.bat](https://pastebin.com/bhQrywES)
-* jane for the shrinkKeyValues bash script
-* Fraklin for screenshots
-* The [Valve Developer Community](https://developer.valvesoftware.com/wiki/Main_Page)
-  for their documentation of Source Engine console variables and mechanics
-* and to Valve, for making and updating (for over a decade!) the best class-based FPS to date with so
-  much customization on top
-* Lastly, [mastercoms](https://github.com/mastercoms) for creating upstream mastercomfig project
+## Software/Projects
+moonfig could not be where it is today without the use of many valuable community projects:
+
+* [Game Tracking for TF2](https://github.com/SteamDatabase/GameTracking-TF2)
+* [SourceMod](https://www.sourcemod.net/credits.php)
+* [sm_cvarlist](https://forums.alliedmods.net/showthread.php?p=1298262)
+* [GetLaunchOptions.bat](https://pastebin.com/bhQrywES)
+* [cfg.tf](https://github.com/mkrl/cfgtf)
+
+## People/Organizations
+Many people and organizations have helped or inspired moonfig in some way:
+
+* [mastercoms](https://github.com/mastercoms)
+* [Chris](https://chrisdown.name/tf2/)
+* [Comanglia](https://www.teamfortress.tv/25328/comanglias-config-fps-guide)
+* [Rhapsody](https://rhapsodysl.github.io/perfconfig/)
+* [JarateKing](https://github.com/JarateKing)
+* jane
+* Fraklin
+* [Valve Developer Community](https://developer.valvesoftware.com/wiki/Main_Page)
+* [Valve Corportation](https://www.valvesoftware.com/en/)
 
 ## Legal
 Valve, the Valve logo, Steam, the Steam logo, Team Fortress, the Team Fortress
