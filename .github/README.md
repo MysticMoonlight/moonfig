@@ -1,5 +1,10 @@
 <img align="right" alt="moonfig logo" width="100" src="https://user-images.githubusercontent.com/25527589/185532914-b3f88743-8877-4f1b-85cc-c62b4396758e.png">
 
+# DISCONTINUATION NOTICE
+This project is now discontinued due to loss of interests. Feel free to fork and make continuation of this project, if you wish!
+
+Thank you for long journey.
+
 # moonfig
 moonfig is the fork of mastercomfig, a modern customization framework without bloats, respecting the user's choice rather than being controlled by the script.
 
