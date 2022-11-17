@@ -74,7 +74,6 @@ Add your alternatives uncommented in the applicable presets/addons, or use modul
 * `medium`: The maximum performance you can get while enabling a few effects that may give you a slight edge
 * `medium-low`: The maximum performance you can get without making the game too hard to play because of awful visual quality and glitches
 * `low`: Maximum performance without caring much about visibility or possible bugs
-* `very-low`: Negatively affects playability by a lot and disables very essential features in desperation for performance
 
 ##### Modules
 

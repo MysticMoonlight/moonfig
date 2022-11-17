@@ -12,7 +12,6 @@ Please refrain from creating the issue directly to the main mastercomfig reposit
 Alternatively, you can create this issue here.
 -->
 
-
 **Describe the bug**
 A clear and concise description of what the bug is.
 
