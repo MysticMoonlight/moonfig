@@ -2,8 +2,8 @@
 name: Bug report
 about: Create a report to help us improve
 title: '[Bug Report] '
-labels: ''
-assignees: RoonMoonlight
+labels: 'bug'
+assignees: 
 ---
 <!--
 NOTE: This project is forked from mastercomfig and considered unofficial.
@@ -13,16 +13,20 @@ Alternatively, you can create this issue here.
 -->
 
 **Describe the bug**
+
 A clear and concise description of what the bug is.
 
 **How you encountered the issue**
+
 Tell us the steps on how to recreate the bug.
 
 **Screenshots**
+
 If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
-* mastercomfig version<!-- don't write this as 'latest', describe the actual version number. You can find version number by typing `moonfig_version` in console -->:
+
+* moonfig version<!-- don't write this as 'latest', describe the actual version number. You can find version number by typing `moonfig_version` in console -->:
 * Presets:
 * Custom values on your config (if any):
 * DX level:
