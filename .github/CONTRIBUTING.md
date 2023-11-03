@@ -58,10 +58,10 @@ punctuation unless using multiple sentences.
 
 ##### CVarlist
 
-ConVars and commands are found using [these instructions](https://docs.mastercomfig.com/page/tf2/#making-your-own-cvar-list).
+ConVars and commands are found using [these instructions](https://docs.comfig.app/page/tf2/#making-your-own-cvar-list).
 
-* [Windows](https://docs.mastercomfig.com/page/tf2/cvarlist_win/)
-* [Linux](https://docs.mastercomfig.com/page/tf2/cvarlist_linux/)
+* [Windows](https://docs.comfig.app/page/tf2/cvarlist_win/)
+* [Linux](https://docs.comfig.app/page/tf2/cvarlist_linux/)
 
 Add your alternatives uncommented in the applicable presets/addons, or use modules.
 
@@ -79,7 +79,7 @@ Add your alternatives uncommented in the applicable presets/addons, or use modul
 
 If your settings affect quality in any way, create a new module or modify
 the existing modules if applicable, then add documentation for it at the
-[modules docs page](https://docs.mastercomfig.com/page/customization/modules/).
+[modules docs page](https://docs.comfig.app/page/customization/modules/).
 
 The first part of adding modules is a multi-step process in `config/mastercomfig/cfg/comfig/comfig.cfg`:
 
