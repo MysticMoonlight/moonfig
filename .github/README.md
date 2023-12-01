@@ -7,7 +7,7 @@ moonfig is a modern customization framework, and aims to disable heavily unoptim
 
 You may find that moonfig makes TF2 a lot smoother, eliminates stuttering, reduces load times and increases FPS while respecting the user's choice.
 
-moonfig is constantly updated following the new tweaks and features from upstream mastercomfig, while not adding many bloats into the scripts — ierated upon based on user feedback and benchmarks. If you think there's an unoptimal value, or if it's as simple as a comment being confusing to you, report the problem or make a pull request through `canary` branch and you'll most likely see a fix in a future update.
+moonfig is constantly updated following the new tweaks and features from upstream mastercomfig, while not adding many bloats into the scripts — ierated upon based on user feedback and benchmarks. If you think there's an unoptimal value, or if it's as simple as a comment being confusing to you, report the problem or make a pull request through `main` branch and you'll most likely see a fix in a future update.
 
 This mod is designed for Team Fortress 2. Using this mod on other games using Source Engine are possible, but might have issues and will be unsupported.
 
