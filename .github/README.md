@@ -1,4 +1,5 @@
-<img align="right" alt="moonfig logo" width="100" src="https://user-images.githubusercontent.com/25527589/185532914-b3f88743-8877-4f1b-85cc-c62b4396758e.png">
+# Discontinued
+Due to loss of Roon's interests about TF2, this project will be concluded and no updates will be made. Thank you everyone for all of your support.
 
 # moonfig
 moonfig is the non-profit project and fork of mastercomfig, a modern customization framework without bloats, respecting the user's choice rather than being controlled by the script.
